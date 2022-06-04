@@ -14,7 +14,7 @@ namespace Homework_2
            Homework 2:
            Istifadeciden hobbilerini sorusun ve bele bir text daxil edeceyini nezere alin:
 
-           Menim hobbilerim uzmek ve musiqi dinlemekdir.  26/6
+           Menim hobbilerim uzmek ve musiqi dinlemekdir.  26/7
 
            Ekrani Clear edin.
 
@@ -23,7 +23,7 @@ namespace Homework_2
 
             Console.WriteLine("Hobbileriniz nelerdir?");
             string hobby = Console.ReadLine();
-            hobby = hobby.Substring(26, 6);
+            hobby = hobby.Substring(26, 7);
             Console.WriteLine(hobby);
             Console.ReadLine();
 

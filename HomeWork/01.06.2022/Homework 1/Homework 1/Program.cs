@@ -29,8 +29,16 @@ namespace Homework_1
 
 
 
-            //bool
+            //bool true/false
+            string name = "Elshad";
+            bool startsWith_H = name.StartsWith("H");
+            Console.WriteLine(startsWith_H);
+            Console.ReadLine();
 
+            bool endsWith_d = name.EndsWith("d");
+            Console.WriteLine(endsWith_d);
+            Console.ReadLine();
+       
             bool count = 10 > 9;
             Console.WriteLine(count);
             Console.ReadLine();
