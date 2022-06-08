@@ -21,6 +21,16 @@ namespace HomeWork2
             string Underscore_Standard = ("Bayramov_Elshad");
             string UPPERSCORE_STANDARD = ("x"); // Adətən sabit dəyərlər üçün istifadə edilir
 
+            /* 
+             * class adları üçün PascalCase 
+             * metodlar üçün PascalCase 
+             * arqumentlər və local dəyişənlər üçün camelCase 
+             * property-lər üçün PascalCase
+             * interface qarşısında daima I hərfi istifadə edilir
+             * Private Member Variable - camelCase
+             * Public Member Variable - PascalCase
+             * Enum - PascalCase
+             * Namespace - PascalCase
 
 
         }
