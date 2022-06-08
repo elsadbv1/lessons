@@ -19,7 +19,7 @@ namespace HomeWork2
             string camelStandard = ("nameSurname");
             double DoubleHungarionStandard = 779;
             string Underscore_Standard = ("Bayramov_Elshad");
-            string UPPERSCORE_STANDARD = ("x"); // Adətən sabit dəyərlər üçün istifadə edilir
+            string UPPERSCORE_STANDARD = ("x");  // Adətən sabit dəyərlər üçün istifadə edilir
 
             /* 
              * class adları üçün PascalCase 
@@ -27,11 +27,11 @@ namespace HomeWork2
              * arqumentlər və local dəyişənlər üçün camelCase 
              * property-lər üçün PascalCase
              * interface qarşısında daima I hərfi istifadə edilir
-             * Private Member Variable - camelCase
+             * Private Member Variable - _camelCase
              * Public Member Variable - PascalCase
              * Enum - PascalCase
              * Namespace - PascalCase
-
+             */
 
         }
     }

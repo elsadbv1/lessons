@@ -39,6 +39,15 @@ namespace HomeWork4
 
 
             */
+            double a = 5.1111111111111111119999999;
+            double b = 5.2222222222222222229999999;
+            double c = a + b;
+            Console.WriteLine(c);
+            Console.ReadLine();
+
+
+
+
         }
     }
 }

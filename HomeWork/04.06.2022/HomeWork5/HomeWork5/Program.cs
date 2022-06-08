@@ -14,6 +14,7 @@ namespace HomeWork5
              Global ve local deyisenlerin ferqlerini kodla ve comment olaraq izah edin. */
 
             int a = 1;
+            
             // a digərlərinə görə qlobal olduğu üçün heç birini a-da istifadə edə bilmirik, amma hamısında a-nı istifadə edə bilirik
             {
                 int b = 2;

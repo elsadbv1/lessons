@@ -27,6 +27,9 @@ namespace HomeWork3
             object d = avgScore;
             object e = lastResult;
 
+            dynamic a1 = student;
+            int age = 25;
+            int AGE = 465;
 
 
         }
