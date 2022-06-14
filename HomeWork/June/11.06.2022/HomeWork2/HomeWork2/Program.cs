@@ -14,6 +14,24 @@ namespace HomeWork2
             çıxma, vurma və bölmə üçün də edin.
             */
 
+            Console.OutputEncoding = Encoding.Unicode;
+            Console.InputEncoding = Encoding.Unicode;
+
+            Console.WriteLine("Rəqəm 1");
+            int a = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Rəqəm 2");
+            int b = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Rəqəm 3");
+            int c = int.Parse(Console.ReadLine());
+
+            Console.WriteLine(a + b + c);
+            Console.WriteLine(a * b * c);
+            Console.WriteLine(a / b / c);
+          
+            Console.ReadLine();
+
 
         }
     }
