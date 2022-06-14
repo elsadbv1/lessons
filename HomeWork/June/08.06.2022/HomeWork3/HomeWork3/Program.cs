@@ -21,35 +21,30 @@ namespace HomeWork3
             Console.InputEncoding = Encoding.Unicode;
 
             Console.WriteLine("Neçə yaşınız var?");
-            string age = Console.ReadLine();
+            int age = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Nə qədər maaş alırsınız?");
-            string wage = Console.ReadLine();
+            int wage = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Boyunuz nə qədərdir?");
-            string height = Console.ReadLine();
+            int height = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Çəkiniz nə qədərdir?");
-            string weight = Console.ReadLine();
+            int weight = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Neçə dostunuz var?");
-            string friend = Console.ReadLine();
+            int friend = Convert.ToInt32(Console.ReadLine());
 
-            int age1 = int.Parse(age);
-            int wage1 = int.Parse(wage);
-            int height1 = int.Parse(height);
-            int weight1 = int.Parse(weight);
-            int friend1 = int.Parse(friend);
+          
 
-
-            byte height2 = (byte)height1;
-            byte weight2 = (byte)weight1;
-            byte friend2 = (byte)friend1;
+            byte height1 = (byte)height;
+            byte weight1 = (byte)weight;
+            byte friend1 = (byte)friend;
 
             checked
             {
-                byte age2 = (byte)age1;
-                byte wage2 = (byte)wage1;
+                byte age1 = (byte)age;
+                byte wage1 = (byte)wage;
 
             }
 

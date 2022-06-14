@@ -40,10 +40,10 @@ namespace HomeWork2
             string surName = Console.ReadLine();
 
             Console.WriteLine("Cins:");
-            string sex = Console.ReadLine();
+            Char sex = Convert.ToChar(Console.ReadLine());
 
             Console.WriteLine("Doğum tarixi:");
-            string dateOfBirth = Console.ReadLine(); 
+            DateTime dateOfBirth = Convert.ToDateTime(Console.ReadLine());
 
             Console.WriteLine("Yaşadığınız ölkə:");
             string currentCountry = Console.ReadLine();
@@ -52,13 +52,13 @@ namespace HomeWork2
             string currentCity = Console.ReadLine();
 
             Console.WriteLine("Boy:");
-            string height = Console.ReadLine();
+            int height = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Çəki:");
-            string weight = Console.ReadLine();
+            int weight = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Maaş:");
-            string wage = Console.ReadLine();
+            int wage = Convert.ToInt32(Console.ReadLine());
 
             Console.ReadLine();
         }
