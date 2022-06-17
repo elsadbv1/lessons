@@ -27,6 +27,7 @@ namespace HomeWork2
             int c = int.Parse(Console.ReadLine());
 
             Console.WriteLine(a + b + c);
+            Console.WriteLine(a - b - c);
             Console.WriteLine(a * b * c);
             Console.WriteLine(a / b / c);
           
